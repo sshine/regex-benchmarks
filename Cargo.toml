@@ -1,0 +1,15 @@
+[package]
+name = "regex-benchmarks"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "*"
+rand = "*"
+
+[dev-dependencies]
+criterion = "*"
+
+[[bench]]
+name = "regex"
+harness = false
